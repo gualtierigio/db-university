@@ -18,4 +18,5 @@
 
 7. SELECT COUNT(*) FROM `departments` (12)
 
-8.
+8.  SELECT * FROM `teachers` 
+    WHERE `phone` IS NULL (50)

@@ -1,0 +1,9 @@
+1. SELECT COUNT(id) AS totale, YEAR(`enrolment_date`) AS year 
+    FROM students GROUP BY year 
+
+2. SELECT COUNT(id), `office_address`
+    FROM `teachers`  
+    GROUP by `office_address`   
+
+3. SELECT AVG(`vote`) AS media_voti , `exam_id` 
+    FROM `exam_student` GROUP BY exam_id
